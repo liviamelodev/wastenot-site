@@ -1,0 +1,244 @@
+.body {
+	background-color: rgba(255, 255, 255, .40);
+}
+
+h1, h2 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 500%;
+	text-align: center;
+}
+
+.titulo2 {
+	font-size: 150%
+}
+
+p, label{
+	font-family: 'Open Sans', sans-serif;
+	text-align: justify;
+	font-size: 110%;
+}
+
+.background {
+	width: 500%;
+}
+
+.imagem {
+	float: left;
+	width: 25%;
+}
+
+.imagem2 {
+	float: right;
+	width: 16%;
+}
+
+.imagem3{
+	float: left;
+	width: 20%;
+
+}
+
+.imagem4{
+	float: right;
+	width: 20%;
+
+}
+
+.texto {
+	text-indent: 3%;
+}
+
+#card1 {
+	background-color: rgba(174, 234, 211, .90);
+	position: absolute;
+	margin-top: -20.5%;
+	height: 41.5%;
+	width: 10%;
+}
+
+#card2{
+	background-color: rgba(174, 234, 211, .90);
+	position: absolute;
+	margin-top: -20.5%;
+	margin-left: 20%;
+	height: 41.5%;
+
+}
+
+#card3{
+	background-color: rgba(174, 234, 211, .90);
+	position: absolute;
+	margin-top: -20.9%;
+	margin-left: 41.5%;
+	height: 42.6%;
+	width: 25%;
+}
+
+#card4{
+	background-color: rgba(174, 234, 211, .90);
+	position: absolute;
+	margin-top: -20.9%;
+	margin-left: 60.5%;
+	height: 42.7%;
+}
+
+#card5 {
+	background-color: rgba(174, 234, 211, .90);
+	position: absolute;
+	margin-top: -20.9%;
+	margin-left: 80%;
+	height: 42.7%;
+}
+
+.container-fluid{
+	margin-top: 3%;
+	margin-left: 10%;
+}
+
+.margem{
+	margin-left: 25%;
+	margin
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 25%;
+	background-color: rgba(255, 255, 255, .40);
+	color: #3d5c5c;
+}
+
+.icon {
+	width: 2%
+}
+
+.navbar {
+	text-align: center;
+	background-color: #aeead3;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:500);
+
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+
+.container1 {
+	max-width: 100rem;
+	margin: 0 auto;
+	padding: 0 2rem 2rem;
+}
+
+.heading {
+	font-family: "Montserrat", Arial, sans-serif;
+	font-size: 4rem;
+	font-weight: 500;
+	line-height: 1.5;
+	text-align: center;
+	padding: 3.5rem 0;
+	color: #1a1a1a;
+}
+
+.heading span {
+	display: block;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	/* Compensate for excess margin on outer gallery flex items */
+	margin: -1rem -1rem;
+}
+
+.gallery-item {
+	/* Minimum width of 24rem and grow to fit available space */
+	flex: 1 0 24rem;
+	/* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+	margin: 1rem;
+	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+	overflow: hidden;
+}
+
+.gallery-image {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 400ms ease-out;
+}
+
+.gallery-image:hover {
+	transform: scale(1.15);
+}
+
+/*
+
+The following rule will only run if your browser supports CSS grid.
+
+Remove or comment-out the code block below to see how the browser will fall-back to flexbox styling. 
+
+*/
+
+@supports (display: grid) {
+	.gallery {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+		grid-gap: 2rem;
+	}
+
+	.gallery,
+	.gallery-item {
+		margin: 0;
+	}
+}
+
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+
+/* Style the back side */
+.flip-card-back {
+  background-color: #9ae5c8;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+
+

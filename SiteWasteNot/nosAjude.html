@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+    <title>Waste Not</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div style="display: flex; justify-content: center;" class="container">
+        <img src="imagens/logoNAG.png" class="img-fluid" alt="Responsive image" style="width: 3%; display: flex; justify-content: flex-end;" class="container">
+        <a class="navbar-brand" href="home.html" style="white-space: pre-wrap;">  Waste Not</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div "class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true" ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="quemSomos.html" >Quem somos?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true" >     </a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="galeria.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true" >     </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="noticias.html">Notícias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true" >     </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="curiosidades.html">Curiosidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true" >     </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosAjude.html">Nos ajude!</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <br>
+    <h1>Nos ajude!</h1>
+    <div style="text-align:center;"><img style="width:58em;height:38em;" src="imagens/cuidebem.png"></div>
+    <div class="container">
+      <div class="alert alert-success" role="alert">
+       <form class="needs-validation" novalidate>
+          <div class="form-row">
+            <div class="col-md-4 mb-3">
+              <label for="validationCustom01">Primeiro nome</label>
+              <input type="text" class="form-control" id="validationCustom01" placeholder="Primeiro nome" required>
+              <div class="invalid-feedback">
+                Coloque um nome.
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="validationCustom02">Sobrenome</label>
+              <input type="text" class="form-control" id="validationCustom02" placeholder="Sobrenome" required>
+              <div class="invalid-feedback">
+                Coloque um sobrenome.
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="validationCustomUsername">E-mail</label>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="inputGroupPrepend">@</span>
+                </div>
+                <input type="text" class="form-control" id="validationCustomUsername" placeholder="exemplo@mail.com" aria-describedby="inputGroupPrepend" required>
+                <div class="invalid-feedback">
+                  Coloque um e-mail.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col-md-6 mb-3">
+              <label for="validationCustom03">Cidade</label>
+              <input type="text" class="form-control" id="validationCustom03" placeholder="Bragança Paulista" required>
+              <div class="invalid-feedback">
+                Coloque uma cidade.
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <label for="validationCustom04">Estado</label>
+              <select name="estado" class="form-control" required> 
+                <option value="estado">Selecione o Estado</option> 
+                <option value="ac">Acre</option> 
+                <option value="al">Alagoas</option> 
+                <option value="am">Amazonas</option> 
+                <option value="ap">Amapá</option> 
+                <option value="ba">Bahia</option> 
+                <option value="ce">Ceará</option> 
+                <option value="df">Distrito Federal</option> 
+                <option value="es">Espírito Santo</option> 
+                <option value="go">Goiás</option> 
+                <option value="ma">Maranhão</option> 
+                <option value="mt">Mato Grosso</option> 
+                <option value="ms">Mato Grosso do Sul</option> 
+                <option value="mg">Minas Gerais</option> 
+                <option value="pa">Pará</option> 
+                <option value="pb">Paraíba</option> 
+                <option value="pr">Paraná</option> 
+                <option value="pe">Pernambuco</option> 
+                <option value="pi">Piauí</option> 
+                <option value="rj">Rio de Janeiro</option> 
+                <option value="rn">Rio Grande do Norte</option> 
+                <option value="ro">Rondônia</option> 
+                <option value="rs">Rio Grande do Sul</option> 
+                <option value="rr">Roraima</option> 
+                <option value="sc">Santa Catarina</option> 
+                <option value="se">Sergipe</option> 
+                <option value="sp">São Paulo</option> 
+                <option value="to">Tocantins</option> 
+              </select>
+              <div class="invalid-feedback">
+                Coloque um estado.
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <label for="validationCustom05">Data de nascimento</label>
+              <input  class="form-control" class="input100" type="date" required>
+              <div class="invalid-feedback">
+                Coloque uma data.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="alert alert-success" role="alert">
+          <label for="validationCustom03">Sexo</label>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
+            <label class="form-check-label" for="exampleRadios1">
+              Feminino.
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+              Masculino.
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+              Outro.
+            </label>
+          </div>
+          <br>
+          <label for="validationCustom03">Nível de escolaridade</label>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+            <label class="form-check-label" for="exampleRadios1">
+              Ensino Fundamental (incompleto).
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+              Ensino Fundamental (completo).
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+              Ensino Médio (incompleto).
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+              Ensino Médio (completo).
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+              Formação Superior (incompleto).
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+              Formação Superior (completo).
+            </label>
+          </div>
+          <br>
+          <label for="validationCustom03">Renda familiar</label>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+            <label class="form-check-label" for="exampleRadios1">
+              Até 2 salários mínimos.
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+              De 2 a 4 salários minímos.
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+              De 4 a 10 salários minímos.
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+              De 10 a 20 salários minímos.
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+              Acima de 20 salários minímos.
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+              Prefiro não dizer.
+            </label>
+          </div>
+        </div>
+        <div class="alert alert-success" role="alert">
+          <label for="validationCustom03">Você sabia o que era uma composteira antes de visitar o site?</label>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
+            <label class="form-check-label" for="exampleRadios1">
+              Ouvi falar, mas não sabia muito.
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+              Sim.
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+              Não.
+            </label>
+          </div>
+          <br>
+          <label for="validationCustom03">Em casa, você separa seu lixo orgânico do lixo comum?</label>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
+            <label class="form-check-label" for="exampleRadios1">
+              Não, mas gostaria.
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+              Sim.
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+              Não.
+            </label>
+          </div>
+          <br>
+          <label for="validationCustom03">Você estaria disposto a ajudar a natureza mudando alguns hábitos?</label>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
+            <label class="form-check-label" for="exampleRadios1">
+              Depende.
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+              Sim.
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+              Não.
+            </label>
+          </div>
+          <br>
+          <label for="validationCustom03">Como você considera seus hábitos alimentares?</label>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
+            <label class="form-check-label" for="exampleRadios1">
+              Bons, me alimento equilibradamente.
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+              Regulares.
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+              Bons, me alimento equilibradamente.
+            </label>
+          </div>
+          <br>
+        </div>  
+          <button class="btn btn-primary" type="submit">Enviar formulário</button>
+          <br>
+        </form>
+        <br>
+      </div>
+
+      <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function() {
+          'use strict';
+          window.addEventListener('load', function() {
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.getElementsByClassName('needs-validation');
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function(form) {
+              form.addEventListener('submit', function(event) {
+                if (form.checkValidity() === false) {
+                  event.preventDefault();
+                  event.stopPropagation();
+                }
+                form.classList.add('was-validated');
+              }, false);
+            });
+          }, false);
+        })();
+      </script>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
